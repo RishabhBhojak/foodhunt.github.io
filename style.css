@@ -1,0 +1,278 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-family: ;
+    
+}
+
+/* Navigation bar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin: 10px 34px;
+}
+
+#logo img {
+    width: 120px;
+    height: 120px;
+}
+
+#navbar {
+    position: relative;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: cursive;
+    text-shadow: 2px 2px 2px rgb(22 19 11);
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 1px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    text-shadow: 1px 1px 1px rgb(22 19 11);
+}
+
+/* home  section*/
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+}
+
+#home::before {
+    content: "";
+    background: url("background01.jpg.jpg") no-repeat center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+/* 
+ulility classes */
+
+#home h1 {
+    color: rgb(107, 55, 18);
+    text-align: center;
+    font-family: cursive;
+    font-size: 4.3rem;
+    text-shadow: 5px 3px 3px rgb(22 19 11);
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 0.9rem;
+}
+
+.h-primary {
+    font-size: 2.8rem;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.h-secondary {
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 6px 20px;
+    /* border: 2px solid white; */
+    border-radius: 5px;
+    background-color: rgb(52 29 20);
+    box-shadow: 2px 2px 3px #3f3d03;
+    color: rgb(203 186 174);
+    font-family: cursive;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.788);
+    margin: 17px;
+}
+
+/* 
+services section */
+
+.services-container {
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(52 20 20);
+}
+
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid brown;
+    text-align: center;
+    width: 400px;
+    height: 330px;
+    padding: 38px;
+    margin: 3px 9px;
+    border-radius: 20px;
+    background: url('background.jpg.jpg');
+    color: rgb(220 151 63 / 69%);
+    font-family: cursive;
+    text-shadow: 5px 3px 3px rgb(22 19 11);
+    
+}
+    
+    /* background-color: rgba(250, 227, 227, 0.719); */
+}
+
+#services .box {
+    padding: 25px 25px;
+}
+
+#services .box img {
+    height: 190px;
+}
+
+#services .box p {
+    text-align: center;
+    font-family: cursive;
+    padding: 1px 25px;
+    margin-bottom: 15px;
+}
+
+/* 
+client section */
+
+#client-section {
+    height: 344px;
+    color: rgb(52 20 20);
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('background.jpg.jpg')no-repeat center/cover;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    margin: 85px 0px;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#clients img {
+    height: 150px;
+}
+
+.client-item {
+    padding: 74px 75px;
+    margin: 15px 7px;
+}
+
+
+/* contact section */
+#contacts{
+    display: flex;
+    margin: -110px 0px;
+    
+
+}
+#contactus{
+    margin: 100px 0px;
+    
+    color: rgb(52 20 20);
+}
+#contacts::before{
+    content: "";
+    background: url('Untitled.png') no-repeat;
+    background-size: 1200px;
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+    
+    
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px;
+    padding: 5px 20px;
+    font-family: cursive;
+
+}
+
+
+
+
+#contact-box input,
+#contact-box textarea{
+
+    width: 100%;
+    padding: 0.5rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 390px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    
+}
